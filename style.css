@@ -12,3 +12,547 @@
   text-align: center;
 }
 
+.links li a {
+ 
+    color:#050505 ; /* Set the text color to white */
+  font-family: roboto;
+ /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: #0a0a0a;
+  font-family: roboto;
+}
+body {
+  font-family: Georgia, sans-serif;
+  background-color:#ffffff  ;
+}
+a {
+  text-decoration: none;
+  font-family: arial;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:19px;
+}
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+    
+  }
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing-page header .logo {
+  color:  #0a0a0a;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: .3s;
+}
+.landing-page header .links li:last-child {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #0a0a0a;
+  background-color: #e6b1f0 ;
+}
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+.landing-page .content .info h1 {
+  color: #5d5d5d;
+  font-size: 69px;
+  font-family: 'Great Vibes', cursive;
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+.button-container a:hover {
+  background-color: #d28bc8;  /* Darker purple when hovered */
+}
+.landing-page .content .image img {
+  max-width: 100%;
+  
+  border-radius: 10px;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End Landing Page */
+.footer-basic {
+  padding:40px 0;
+  background-color:#e6b1f0;
+  color:#4b4c4d;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic li {
+  padding:0 10px;
+}
+.footer-basic ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:black;
+  opacity:0.75;
+}
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+/*footer ed*/
+.links li a {
+    color: #050505; 
+  font-family: roboto;
+}
+#getstarted a {
+    color: #0a0a0a;
+  font-family: roboto;
+}
+body {
+  font-family: Georgia, sans-serif;
+  background-color:#ffffff;
+}
+a {
+  text-decoration: none;
+  font-family: arial;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+  
+}
+/* Start Landing Page */
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing-page header .logo {
+  color: #5d5d5d;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #5d5d5d;
+  cursor: pointer;
+  transition: .3s;
+}
+.landing-page header .links li:last-child {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #0a0a0a;
+  background-color: #e6b1f0 ;
+}
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+.container{
+  margin:10px;
+}
+/* End Landing Page */
+.content .container .info {
+ margin:-35px; 
+  
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #e6b1f0;
+  color: black;
+  padding: 12px 20px;
+  border: ;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:Arial;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: ;
+ 
+}
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 6px;
+  background-color: #fffff;
+  padding: 0px;
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:#e6b1f0;
+  color:#4b4c4d;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic li {
+  padding:0 10px;
+}
+.footer-basic ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:black;
+  opacity:0.75;
+}
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+/*footer ed*/
+.links li a {
+ 
+    color:#050505 ;
+ font-family: Roboto;
+}
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: #0a0a0a;
+  
+}
+body {
+  font-family: Georgia, sans-serif;
+  background-color:#ffffff  ;
+}
+a {
+  text-decoration: none;
+  font-family: arial;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/* Start Landing Page */
+.landing-page header {
+  min-height: 80px;
+  display: flex;
+}
+  .landing-page header {
+    min-height: auto;
+    display: initial;
+  }
+.landing-page header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing-page header .logo {
+  color:  #0a0a0a;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.landing-page header .links {
+  display: flex;
+  align-items: center;
+}
+.landing-page header .links li {
+  margin-left: 30px;
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: .3s;
+}
+.landing-page header .links li:last-child {
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #0a0a0a;
+  background-color: #e6b1f0 ;
+}
+.landing-page .content .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 140px;
+  min-height: calc(100vh - 80px);
+}
+}
+.landing-page .content .info p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 15px;
+  color: #5d5d5d;
+}
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+/* End Landing Page */
+h1{
+  text-align: center;
+  font-family:Times New Roman;
+  
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+/* Project card container */
+.project-container {
+    display: FLEX;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+/* Individual project card styling */
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+   font-family:times new roman;
+    text-align: center;
+    margin: 40px;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+/* Project image */
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+/* Project title */
+.project-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+/* Project description */
+.project-card p {
+    font-size: 1em;
+    margin: 10px;
+    line-height: 1.5;
+    color: #666;
+}
+/* View project button */
+.project-card a {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: BLACK;
+    background-color: #e6b1f0;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+.project-card a:hover {
+    background-color: #0056b3;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-card {
+        width: 90%;
+    }
+}
+.footer-basic {
+  padding:40px 0;
+  background-color:#e6b1f0;
+  color:#4b4c4d;
+}
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+.footer-basic li {
+  padding:0 10px;
+}
+.footer-basic ul a {
+  color:black;
+  text-decoration:none;
+  opacity:0.8;
+}
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:black;
+  opacity:0.75;
+}
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+/*footer ed*/
+#button-container a {
+  display: inline-block;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 12px 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  color: black;
+  background-color: #e6b1f0;
+  text-decoration: none;
+  text-align: center;
+}
