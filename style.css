@@ -641,7 +641,7 @@ h1{
 /*footer ed*/
 
 
-landing-page .button-container a {
+#button-container a {
   display: inline-block;
   border: 2px solid #FFFFFF;
   border-radius: 10px;
