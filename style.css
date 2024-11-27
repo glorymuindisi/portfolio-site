@@ -103,16 +103,22 @@ ul {
   color: #5d5d5d;
 }
 .button-container a {
- display: inline-block;
-  border: 2px solid #FFFFF;
+  display: inline-block;
+  border: 2px solid #FFFFFF;  /* White border */
   border-radius: 10px;
-  
   padding: 12px 30px;
   margin-top: 30px;
   cursor: pointer;
-  color: black;
-  background-color:  #e6b1f0 ;
+  color: black;  /* Text color */
+  background-color: #e6b1f0;  /* Light purple background */
+  text-decoration: none;  /* No underline */
+  text-align: center;  /* Center text */
 }
+
+.button-container a:hover {
+  background-color: #d28bc8;  /* Darker purple when hovered */
+}
+
 .landing-page .content .image img {
   max-width: 100%;
   
