@@ -341,7 +341,7 @@ input[type=submit]:hover {
 }
 body {
   font-family: Georgia, sans-serif;
-  background-color:#f5f5dc  ;
+  background-color:#50396b ;
 }
 a {
   text-decoration: none;
@@ -369,6 +369,7 @@ ul {
   .landing-page header {
     min-height: auto;
     display: initial;
+    background-color: black;
   }
 .landing-page header .container {
   display: flex;
@@ -390,6 +391,7 @@ ul {
   color: #0a0a0a;
   cursor: pointer;
   transition: .3s;
+  background-color: #0f0f0f;
 }
 .landing-page header .links li:last-child {
   border-radius: 10px;
