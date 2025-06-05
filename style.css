@@ -15,7 +15,7 @@
 .links li a {
  
     color:#050505 ; /* Set the text color to white */
-  font-family: roboto;
+  font-family: Tahoma, sans-serif;
  /* Remove underline from links */
 }
 
@@ -91,12 +91,12 @@ ul {
 .landing-page .content .info h1 {
   color: #5d5d5d;
   font-size: 69px;
-  font-family: 'Great Vibes', cursive;
+  font-family: Garamond, serif;
 }
 .landing-page .content .info p {
   margin: 0;
   line-height: 1.6;
-  font-size: 15px;
+  font-size: 69px;
   color: #5d5d5d;
 }
 .button-container a:hover {
